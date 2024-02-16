@@ -32,3 +32,5 @@ pipeline:
         repoName: jorgehas/python
         build: <+input>
         sslVerify: false
+  delegateSelectors:
+    - test-del
