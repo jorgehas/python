@@ -31,5 +31,7 @@ pipeline:
         connectorRef: account.Github_OAuth_1708047604729
         repoName: jorgehas/python
         build: <+input>
+        sslVerify: false
   delegateSelectors:
     - docker-delegate
+    - macos-amd64
