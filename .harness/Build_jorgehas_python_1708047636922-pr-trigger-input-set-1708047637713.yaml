@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jorgehas_python_1708047636922-pr-trigger-input-set
+  identifier: Build_jorgehas_python_1708047636922prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jorgehas_python_1708047636922
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
