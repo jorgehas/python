@@ -33,4 +33,4 @@ pipeline:
         build: <+input>
         sslVerify: false
   delegateSelectors:
-    - test-del
+    - helm-delegate
