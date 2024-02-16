@@ -32,6 +32,3 @@ pipeline:
         repoName: jorgehas/python
         build: <+input>
         sslVerify: false
-  delegateSelectors:
-    - docker-delegate
-    - macos-amd64
