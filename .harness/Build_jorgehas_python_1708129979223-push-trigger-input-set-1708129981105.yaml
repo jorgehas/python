@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jorgehas_python_1708129979223-push-trigger-input-set
+  identifier: Build_jorgehas_python_1708129979223pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_jorgehas_python_1708129979223
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
